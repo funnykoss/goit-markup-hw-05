@@ -88,6 +88,10 @@ img {
   color: var(--primary-text-color);
 
   font-family: inherit;
+
+  transition-property: background-color, box-shadow;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--bezier-animation);
 }
 
 .buttons-filters:hover,
@@ -101,6 +105,10 @@ img {
 .filters-items .filter-all {
   background-color: var(--accent-color);
   color: var(--main-bg-color);
+
+  transition-property: background-color;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--bezier-animation);
 }
 
 .filters-items .filter-all:first-child:hover,
@@ -196,6 +204,10 @@ img {
   text-decoration: none;
 
   color: var(--primary-text-color);
+
+  transition-property: background-color;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--bezier-animation);
 }
 
 .site-nav .link.current {
@@ -238,6 +250,10 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--title-text-color);
+
+  transition-property: background-color;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--bezier-animation);
 }
 
 .icon-mail {
@@ -509,10 +525,17 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+
+  transition-property: background-color;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--bezier-animation);
 }
 
 .social-icons {
   fill: currentColor;
+  transition-property: fill;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--bezier-animation);
 }
 
 .social-items {
@@ -551,10 +574,18 @@ img {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   color: var(--icon-color);
+
+  transition-property: border-color;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--bezier-animation);
 }
 
 .client-items {
   fill: currentColor;
+
+  transition-property: fill;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--bezier-animation);
 }
 
 .clients-thumbs {
@@ -669,6 +700,10 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   color: var(--background-color);
+
+  transition-property: background-color;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--bezier-animation);
 }
 
 .social-footer-items {
@@ -720,6 +755,10 @@ img {
 .projects-items {
   width: calc((100% - 60px) / 3);
   outline: 1px solid var(--main-bg-color);
+
+  transition-property: box-shadow;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--bezier-animation);
 }
 
 .projects-items:hover {
