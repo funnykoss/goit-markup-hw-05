@@ -542,16 +542,16 @@ img {
   height: 100%;
   border-radius: 50%;
 
-  transition-property: background-color, fill;
+  transition-property: background-color, color;
   transition-duration: var(--time-animation);
   transition-timing-function: var(--bezier-animation);
 }
 
 .social-icons {
   fill: currentColor;
-  transition-property: fill;
+  /* transition-property: fill;
   transition-duration: var(--time-animation);
-  transition-timing-function: var(--bezier-animation);
+  transition-timing-function: var(--bezier-animation); */
 }
 
 .social-items {
@@ -564,7 +564,7 @@ img {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
-  fill: var(--background-color);
+  color: var(--background-color);
 }
 
 /* ==== END TEAM ==== */
