@@ -350,9 +350,6 @@ img {
   display: flex;
   justify-content: flex-end;
 
-  padding-top: 8px;
-  padding-right: 8px;
-
   width: 528px;
   height: 581px;
   background-color: var(--background-color);
@@ -364,6 +361,8 @@ img {
 
 .modal-thumb {
   position: absolute;
+  top: 8px;
+  right: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
