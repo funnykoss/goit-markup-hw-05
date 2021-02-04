@@ -142,9 +142,9 @@ img {
 
 /* ==== HEADER ==== */
 
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
-}
+} */
 
 .page-header {
   display: flex;
@@ -757,6 +757,10 @@ img {
 /* ==== END FOOTER ==== */
 
 /* ==== PORTFOLIO ==== */
+
+.header-portfolio {
+  border-bottom: 1px solid #ececec;
+}
 
 .section-portfolio {
   padding-top: 94px;
