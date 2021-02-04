@@ -819,12 +819,9 @@ img {
 .projects-thumb {
   position: relative;
   overflow: hidden;
-
-  /* width: 370px;
-  height: 294px; */
 }
 
-.projects-overlay {
+.projects-overlay-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -838,9 +835,6 @@ img {
 
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
-}
-
-.projects-overlay-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
@@ -849,8 +843,8 @@ img {
   color: var(--background-color);
 }
 
-.projects-items:hover .projects-overlay,
-.projects-items:focus .projects-overlay {
+.projects-link:hover .projects-overlay-text,
+.projects-link:focus .projects-overlay-text {
   opacity: 1;
   transform: translateY(0);
 }
